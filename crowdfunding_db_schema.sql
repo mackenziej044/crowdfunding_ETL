@@ -1,4 +1,7 @@
- -- drop (if necessary)
+create DATABASE crowdfunding_db;
+\c crowdfunding_db;
+\i ../crowdfunding_db_schema.sql
+-- drop (if necessary)
 
  drop table if exists category;
  drop table if exists subcategory; 
